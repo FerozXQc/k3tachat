@@ -1,0 +1,27 @@
+header,ul,nav{
+    display: flex;
+    list-style: none;
+}
+
+header{
+    color: white;
+    background-color: blue;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 4;
+
+    p{
+        font-size: 20px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    li{
+        padding: 0 10px;
+    }
+}

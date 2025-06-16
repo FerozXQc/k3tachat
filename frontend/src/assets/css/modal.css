@@ -1,0 +1,19 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    z-index: 3;
+    padding: 10px;
+    background-color: rgb(180, 88, 88);
+}
+
+#invis{
+    background-color: rgba(5, 5, 5, 0.329);
+    min-height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}

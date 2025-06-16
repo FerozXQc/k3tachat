@@ -1,0 +1,59 @@
+
+
+.lp_container{
+height:90vh;
+width: 100vw;  
+    img{
+        margin-right: 20px;
+        width: 700px;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+    form{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span{
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+            margin: 5px 0;
+        }
+        input{
+            border: 0.1px solid rgba(95, 95, 95, 0.295);
+            padding: 5px;
+            height: 20px;
+            background-color: rgba(240, 239, 239, 0.685);
+            width: 300px;
+            margin-bottom: 5px;
+        }
+        button{
+            padding: 10px 20px;
+            width: 50%;
+            color: rgb(0, 0, 0);
+            margin: 10px 0;
+            background-color: rgb(54, 214, 81);
+            border: none;
+            border-radius: 10px;
+        }
+        a{
+            color: rgb(122, 122, 247);
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        p{
+            margin: 5px;
+        }
+    }
+
+}
+
+footer{
+    margin: 0 10px;
+}
